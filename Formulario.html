@@ -1,0 +1,108 @@
+<!DOCTIPE html>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<title>Formulario Registro</title>
+		</head>
+		<body>	
+			<style>
+				body{ background-color:#F5DA81;
+				}
+			</style>
+			<div id="logo"><center><table border="1">
+				<style>
+				p{ background-color:#A9F5A9;
+				}
+				</style>
+					<h2>Formulario</h2>
+				<tr>
+					<td><p>Formulario De Registro</td>
+				</tr>
+			</div></center></table>
+			<form><center>
+				<table border="1">
+				<style>
+				table{ background-color:#81BEF7;
+				}
+				</style>
+			<tr>
+				<td><label for="nit">NIt:</label></td>
+				<td><input type="text" placeholder ="Ingresar Nit" size="35" maxlength="16" name="nit" id="nit"></td>
+			</tr>
+			<tr>
+				<td><label for="nombre">Nombres:</label></td>
+				<td><input type="text" placeholder ="Ingresar Nombres" size="35" maxlength="25" name="nombre" id="nombre"></td>
+			</tr>
+			<tr>
+				<td><label for="apellido">Apellidos:</label></td>
+				<td><input type="text" placeholder ="Ingresar Apellidos" size="35" maxlength="25" name="apellido" id="apellido"></td>
+			</tr>
+			<tr>
+				<td><label for="direccion">Direccion:</label></td>
+				<td><input type="text" placeholder ="Ingresar Direccion" size="35" maxlength="45" name="direccion" id="direccion"></td>
+			</tr>
+			<tr>
+				<td><label for="telefono">Telefono:</label></td>
+				<td><input type="number" placeholder ="Ingresar Telefono" size="35" max="99999999" name="telefono" id="telefono"></td>
+			</tr>
+			<tr>
+				<td><label for="fechaRegistro">Fecha de Registro:</label></td>
+				<td><input type="date" name="fechaRegistro" id="fechaRegistro"></td>
+			</tr>
+			<tr>
+				<td><label for="fechaNacimiento">Fecha de Nacimiento:</label></td>
+				<td><input type="date" name="fechaNacimiento"  id="fechaNacimiento" max="2000-12-31"></td>
+			</tr>
+			<tr>
+				<td><label for="tipodecliente">Tipo de Cliente:</label></td>
+				<td><select name="tipodecliente"id="tipodecliente">
+					<option value="Ocasional">Ocasional</option>
+					<option value="Habitual">Habitual</option>
+					<option value="Corporativo">Corporativo</option>
+					<option value="Pequeño">Pequeño</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><label for="limite">Limite de Credito:</label></td>
+				<td><input type="number" placeholder ="Ingresar Limite de Credito" size="35" max="15000" name="limite" id="limite"></td>
+			</tr>
+			<tr>
+				<td><label for="contacto">Nombre de Contacto:</label></td>
+				<td><input type="text" placeholder ="Ingresar Nombre del Contacto" size="35" max="45" name="contacto" id="contacto"></td>
+			</tr>
+			<tr>
+				<td><label for="sexo">Sexo:</label></td>
+				<td><select name="tipodecliente"id="tipodecliente">
+					<option value="Hombre">Hombre</option>
+					<option value="Mujer">Mujer</option>
+					<option value="Prefiero">Prefiero no decirlo</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><label for="correo">Correo Electronico:</label>
+				<td><input type="email" placeholder ="Ingresar Direccion" size="35" maxlength="25" name="correo" id="correo">
+			</tr>
+			<tr>
+				<td><label for="total">Total de Ventas:</label>
+				<td><input type="number" placeholder ="Ingresar Total de Ventas" size="35" max="150" name="total" id="total">
+			</tr>
+			<tr>
+				<td><label for="margen">Margen:</label>
+				<td><input type="number" placeholder ="Ingresar Total de Ventas" size="35" max="15000" name="margen" id="margen">
+			</tr>
+			<tr>
+				<td><label for="region">Region:</label>
+				<td><select name="tipodecliente"id="tipodecliente">
+					<option value="Centro">Centro</option>
+					<option value="Norte">Norte</option>
+					<option value="Sur">Sur</option>
+			</select>
+			</tr>
+			<tr>
+				<td><input type="button" value="Enviar Formulario"></td>
+				<td><input type="submit" value="Limpiar"></td>
+			</tr>
+			</form></center></table>
+		</body>
+	</html>
+	
